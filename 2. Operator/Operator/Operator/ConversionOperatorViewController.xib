@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ConversionOperatorViewController" customModule="Operator" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XsN-kf-fvI">
+                    <rect key="frame" x="0.0" y="54" width="414" height="30"/>
+                    <state key="normal" title="Map"/>
+                    <connections>
+                        <action selector="map:" destination="-1" eventType="touchUpInside" id="zzh-br-fA3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hwv-Wi-R4b">
+                    <rect key="frame" x="0.0" y="94" width="414" height="30"/>
+                    <state key="normal" title="cast"/>
+                    <connections>
+                        <action selector="cast:" destination="-1" eventType="touchUpInside" id="fGQ-Gp-jVB"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xfy-bn-faL">
+                    <rect key="frame" x="0.0" y="134" width="414" height="30"/>
+                    <state key="normal" title="FlatMap"/>
+                    <connections>
+                        <action selector="flatMap:" destination="-1" eventType="touchUpInside" id="qJJ-gp-Vo5"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbM-lu-6hr">
+                    <rect key="frame" x="0.0" y="214" width="414" height="30"/>
+                    <state key="normal" title="SwitchIfEmpty"/>
+                    <connections>
+                        <action selector="switchIfEmpty:" destination="-1" eventType="touchUpInside" id="aoW-cw-aSx"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ry-Ui-pH7">
+                    <rect key="frame" x="0.0" y="174" width="414" height="30"/>
+                    <state key="normal" title="DefaultEmpty"/>
+                    <connections>
+                        <action selector="defaultEmpty:" destination="-1" eventType="touchUpInside" id="6pj-W0-Zuy"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WWZ-Ut-kpt">
+                    <rect key="frame" x="0.0" y="254" width="414" height="30"/>
+                    <state key="normal" title="StartWith"/>
+                    <connections>
+                        <action selector="startWith:" destination="-1" eventType="touchUpInside" id="D6b-Dp-M8n"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFy-Ai-NWO">
+                    <rect key="frame" x="242" y="403" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Vv-I5-JBX">
+                    <rect key="frame" x="0.0" y="294" width="414" height="30"/>
+                    <state key="normal" title="Sorted"/>
+                    <connections>
+                        <action selector="sorted:" destination="-1" eventType="touchUpInside" id="TRj-zS-ZMe"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Xfy-bn-faL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="3Zw-uF-249"/>
+                <constraint firstItem="XsN-kf-fvI" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="6mW-Ux-CnH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="9Vv-I5-JBX" secondAttribute="trailing" id="9mQ-St-Uhi"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="cbM-lu-6hr" secondAttribute="trailing" id="9nr-zY-Ewh"/>
+                <constraint firstItem="Xfy-bn-faL" firstAttribute="top" secondItem="hwv-Wi-R4b" secondAttribute="bottom" constant="10" id="EYq-oZ-AGG"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="XsN-kf-fvI" secondAttribute="trailing" id="H7p-2G-8v3"/>
+                <constraint firstItem="WWZ-Ut-kpt" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Jtn-1m-PaC"/>
+                <constraint firstItem="hwv-Wi-R4b" firstAttribute="top" secondItem="XsN-kf-fvI" secondAttribute="bottom" constant="10" id="L6y-oV-UAI"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Xfy-bn-faL" secondAttribute="trailing" id="M5h-ca-UV2"/>
+                <constraint firstItem="9Vv-I5-JBX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="MzM-LL-KIV"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hwv-Wi-R4b" secondAttribute="trailing" id="O19-OV-0ft"/>
+                <constraint firstItem="9Vv-I5-JBX" firstAttribute="top" secondItem="WWZ-Ut-kpt" secondAttribute="bottom" constant="10" id="U7e-eO-EVY"/>
+                <constraint firstItem="cbM-lu-6hr" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="XAz-3d-3j5"/>
+                <constraint firstItem="hwv-Wi-R4b" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="XBI-FF-MR9"/>
+                <constraint firstItem="cbM-lu-6hr" firstAttribute="top" secondItem="8ry-Ui-pH7" secondAttribute="bottom" constant="10" id="YLM-g9-3ut"/>
+                <constraint firstItem="8ry-Ui-pH7" firstAttribute="top" secondItem="Xfy-bn-faL" secondAttribute="bottom" constant="10" id="aSg-O3-RV4"/>
+                <constraint firstItem="WWZ-Ut-kpt" firstAttribute="top" secondItem="cbM-lu-6hr" secondAttribute="bottom" constant="10" id="af6-pQ-C4f"/>
+                <constraint firstItem="XsN-kf-fvI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="eKb-rE-hEp"/>
+                <constraint firstItem="8ry-Ui-pH7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="kTp-ZX-aUk"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="WWZ-Ut-kpt" secondAttribute="trailing" id="nEZ-cK-3Hu"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8ry-Ui-pH7" secondAttribute="trailing" id="weZ-zT-yWZ"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="82"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
