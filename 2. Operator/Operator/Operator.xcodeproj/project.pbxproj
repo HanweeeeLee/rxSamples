@@ -17,6 +17,8 @@
 		4F59E63C25C2745D00F11FC2 /* OperatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F59E63A25C2745D00F11FC2 /* OperatorViewController.xib */; };
 		4F59E64625C2814300F11FC2 /* ConversionOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59E64425C2814300F11FC2 /* ConversionOperatorViewController.swift */; };
 		4F59E64725C2814300F11FC2 /* ConversionOperatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F59E64525C2814300F11FC2 /* ConversionOperatorViewController.xib */; };
+		78B9362A25C2DDB000DB4521 /* ETCOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B9362825C2DDB000DB4521 /* ETCOperatorViewController.swift */; };
+		78B9362B25C2DDB000DB4521 /* ETCOperatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78B9362925C2DDB000DB4521 /* ETCOperatorViewController.xib */; };
 		896DB4F9067E6011A17C92B7 /* Pods_Operator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85FF79D8D0EA728F83D24B24 /* Pods_Operator.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +36,8 @@
 		4F59E63A25C2745D00F11FC2 /* OperatorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OperatorViewController.xib; sourceTree = "<group>"; };
 		4F59E64425C2814300F11FC2 /* ConversionOperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionOperatorViewController.swift; sourceTree = "<group>"; };
 		4F59E64525C2814300F11FC2 /* ConversionOperatorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConversionOperatorViewController.xib; sourceTree = "<group>"; };
+		78B9362825C2DDB000DB4521 /* ETCOperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETCOperatorViewController.swift; sourceTree = "<group>"; };
+		78B9362925C2DDB000DB4521 /* ETCOperatorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ETCOperatorViewController.xib; sourceTree = "<group>"; };
 		85FF79D8D0EA728F83D24B24 /* Pods_Operator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Operator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FFBFC5E05F4A51A0B60745F /* Pods-Operator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Operator.release.xcconfig"; path = "Target Support Files/Pods-Operator/Pods-Operator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +86,8 @@
 				4F59E63A25C2745D00F11FC2 /* OperatorViewController.xib */,
 				4F59E64425C2814300F11FC2 /* ConversionOperatorViewController.swift */,
 				4F59E64525C2814300F11FC2 /* ConversionOperatorViewController.xib */,
+				78B9362825C2DDB000DB4521 /* ETCOperatorViewController.swift */,
+				78B9362925C2DDB000DB4521 /* ETCOperatorViewController.xib */,
 			);
 			path = Operator;
 			sourceTree = "<group>";
@@ -165,6 +171,7 @@
 				4F59E62C25C270F200F11FC2 /* LaunchScreen.storyboard in Resources */,
 				4F59E62925C270F100F11FC2 /* Assets.xcassets in Resources */,
 				4F59E64725C2814300F11FC2 /* ConversionOperatorViewController.xib in Resources */,
+				78B9362B25C2DDB000DB4521 /* ETCOperatorViewController.xib in Resources */,
 				4F59E63C25C2745D00F11FC2 /* OperatorViewController.xib in Resources */,
 				4F59E62725C270F000F11FC2 /* Main.storyboard in Resources */,
 			);
@@ -224,6 +231,7 @@
 				4F59E62025C270F000F11FC2 /* AppDelegate.swift in Sources */,
 				4F59E63B25C2745D00F11FC2 /* OperatorViewController.swift in Sources */,
 				4F59E62225C270F000F11FC2 /* SceneDelegate.swift in Sources */,
+				78B9362A25C2DDB000DB4521 /* ETCOperatorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

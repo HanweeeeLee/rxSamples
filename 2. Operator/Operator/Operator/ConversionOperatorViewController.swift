@@ -95,5 +95,13 @@ class ConversionOperatorViewController: UIViewController {
         //RxSwift는 오퍼레이터로 지원 안하는듯.. 매핑해서 소팅해야할것같음..
     }
     
-
+    @IBAction func scan(_ sender: Any) {
+        Observable.of(1,2,3,4,5)
+            .scan(0) { (prevValue, newValue) in
+                return prevValue + newValue
+            }
+            .subscribe(onNext: { print($0) })
+            .disposed(by: bag)
+    }
+    
 }

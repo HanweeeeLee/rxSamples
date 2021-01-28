@@ -23,5 +23,10 @@ class ViewController: UIViewController {
         let vc = ConversionOperatorViewController.init(nibName: "ConversionOperatorViewController", bundle: nil)
         self.navigationController?.pushViewController(vc, animated: true)
     }
+    
+    @IBAction func etcOperators(_ sender: Any) {
+        let vc = ETCOperatorViewController.init(nibName: "ETCOperatorViewController", bundle: nil)
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
 

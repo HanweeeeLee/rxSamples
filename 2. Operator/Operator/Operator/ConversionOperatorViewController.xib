@@ -60,16 +60,18 @@
                         <action selector="startWith:" destination="-1" eventType="touchUpInside" id="D6b-Dp-M8n"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFy-Ai-NWO">
-                    <rect key="frame" x="242" y="403" width="46" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="Button"/>
-                </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Vv-I5-JBX">
                     <rect key="frame" x="0.0" y="294" width="414" height="30"/>
                     <state key="normal" title="Sorted"/>
                     <connections>
                         <action selector="sorted:" destination="-1" eventType="touchUpInside" id="TRj-zS-ZMe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFy-Ai-NWO">
+                    <rect key="frame" x="0.0" y="334" width="414" height="30"/>
+                    <state key="normal" title="Scan"/>
+                    <connections>
+                        <action selector="scan:" destination="-1" eventType="touchUpInside" id="8bj-kS-jZu"/>
                     </connections>
                 </button>
             </subviews>
@@ -88,11 +90,14 @@
                 <constraint firstItem="9Vv-I5-JBX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="MzM-LL-KIV"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hwv-Wi-R4b" secondAttribute="trailing" id="O19-OV-0ft"/>
                 <constraint firstItem="9Vv-I5-JBX" firstAttribute="top" secondItem="WWZ-Ut-kpt" secondAttribute="bottom" constant="10" id="U7e-eO-EVY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JFy-Ai-NWO" secondAttribute="trailing" id="Wg1-k1-3No"/>
                 <constraint firstItem="cbM-lu-6hr" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="XAz-3d-3j5"/>
                 <constraint firstItem="hwv-Wi-R4b" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="XBI-FF-MR9"/>
                 <constraint firstItem="cbM-lu-6hr" firstAttribute="top" secondItem="8ry-Ui-pH7" secondAttribute="bottom" constant="10" id="YLM-g9-3ut"/>
+                <constraint firstItem="JFy-Ai-NWO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ZwY-au-9Xj"/>
                 <constraint firstItem="8ry-Ui-pH7" firstAttribute="top" secondItem="Xfy-bn-faL" secondAttribute="bottom" constant="10" id="aSg-O3-RV4"/>
                 <constraint firstItem="WWZ-Ut-kpt" firstAttribute="top" secondItem="cbM-lu-6hr" secondAttribute="bottom" constant="10" id="af6-pQ-C4f"/>
+                <constraint firstItem="JFy-Ai-NWO" firstAttribute="top" secondItem="9Vv-I5-JBX" secondAttribute="bottom" constant="10" id="cHZ-kh-cww"/>
                 <constraint firstItem="XsN-kf-fvI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="eKb-rE-hEp"/>
                 <constraint firstItem="8ry-Ui-pH7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="kTp-ZX-aUk"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="WWZ-Ut-kpt" secondAttribute="trailing" id="nEZ-cK-3Hu"/>

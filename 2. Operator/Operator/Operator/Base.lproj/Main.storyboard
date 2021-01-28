@@ -30,15 +30,25 @@
                                     <action selector="conversionOperators:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uu5-oI-9Oj"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="95v-aS-42d">
+                                <rect key="frame" x="0.0" y="188" width="414" height="30"/>
+                                <state key="normal" title="ETC Operators"/>
+                                <connections>
+                                    <action selector="etcOperators:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RTH-FW-gLm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="95v-aS-42d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2lO-Ra-Qjy"/>
                             <constraint firstItem="oEU-Sn-DTk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="45s-18-Zy6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oEU-Sn-DTk" secondAttribute="trailing" id="DF6-AE-0X4"/>
+                            <constraint firstItem="95v-aS-42d" firstAttribute="top" secondItem="oEU-Sn-DTk" secondAttribute="bottom" constant="10" id="JMh-3d-jcZ"/>
                             <constraint firstItem="oEU-Sn-DTk" firstAttribute="top" secondItem="QvX-xO-LR7" secondAttribute="bottom" constant="10" id="QZ5-pu-ij2"/>
                             <constraint firstItem="QvX-xO-LR7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="StQ-JS-yux"/>
                             <constraint firstItem="QvX-xO-LR7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="WG4-r1-Lwe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="95v-aS-42d" secondAttribute="trailing" id="edp-gi-VfB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QvX-xO-LR7" secondAttribute="trailing" id="yDO-Ip-7bB"/>
                         </constraints>
                     </view>
