@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SkipAndTakeViewController" customModule="OperatorAndErr" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSV-aj-9wV">
+                    <rect key="frame" x="0.0" y="64" width="414" height="30"/>
+                    <state key="normal" title="skip"/>
+                    <connections>
+                        <action selector="skip:" destination="-1" eventType="touchUpInside" id="STm-7p-Trh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k5D-3A-cKx">
+                    <rect key="frame" x="0.0" y="104" width="414" height="30"/>
+                    <state key="normal" title="skip last"/>
+                    <connections>
+                        <action selector="skipLast:" destination="-1" eventType="touchUpInside" id="p10-zi-YJu"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uHl-4w-wBJ">
+                    <rect key="frame" x="0.0" y="144" width="414" height="30"/>
+                    <state key="normal" title="take"/>
+                    <connections>
+                        <action selector="take:" destination="-1" eventType="touchUpInside" id="jAp-C2-5sb"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="k5D-3A-cKx" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="DZP-O5-PLY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="zSV-aj-9wV" secondAttribute="trailing" id="Ekx-zb-hIp"/>
+                <constraint firstItem="uHl-4w-wBJ" firstAttribute="top" secondItem="k5D-3A-cKx" secondAttribute="bottom" constant="10" id="GRy-eU-YuH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="uHl-4w-wBJ" secondAttribute="trailing" id="M5R-5v-K2P"/>
+                <constraint firstItem="zSV-aj-9wV" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="WeR-Nd-coG"/>
+                <constraint firstItem="uHl-4w-wBJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="b0l-h5-vL0"/>
+                <constraint firstItem="zSV-aj-9wV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="s6K-qV-U6l"/>
+                <constraint firstItem="k5D-3A-cKx" firstAttribute="top" secondItem="zSV-aj-9wV" secondAttribute="bottom" constant="10" id="xFD-KN-ZEN"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="k5D-3A-cKx" secondAttribute="trailing" id="xS2-h6-876"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="90"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
